@@ -9,6 +9,7 @@ class AbhinData {
   increment() {
     int v = _counterSubject.value;
     v++;
+    print('[abhin_data] counter is now => $v');
     _counterSubject.sink.add(v);
   }
 }
